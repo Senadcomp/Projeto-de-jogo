@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href = "https://fonts.googleapis.com/css2?family=Bungree&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ca42bbbf84.js" crossorigin="anonymous"></script>
+    <title>Jogo Pac Man</title>
 </head>
 <body>
-    
+    <button id="Jogar" onClick="document.getElementById('jogar').style.display = 'nome'; document.getElementById('h2bestScore').style.display = 'block'; document.
+    getElemetById('footer').style.display = 'none' ; document.getElementById('mobile').style.display = 'none' ">Clique para começar</button>
+    <script src="script.js" charset="utf-8"></script>
+    <img src="https//upload.wikimedia.org/wikipedia/fr/thumb/a/a2/Pac-Man-Logo.svg.png" alt="Logo Pac-Man" id="logo">
+    <h2>Pontuação : <span id="score">0</span></h2>
+    <p id="Computer">Use <kbd>&larr;</kbd> <kbd>&uarr;</kbd> <kbd>&rarr;</kbd> <kbd>&darr;</kbd> para Jogar</p>
+    <div class="grid"></div>
+    <h2 id="h2bestScore" style="display: none">Sua melhor pontuação: <span id="bestScore">0</span></h2>
 </body>
 </html>
